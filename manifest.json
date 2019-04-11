@@ -1,0 +1,19 @@
+{
+	"initial": [
+		"js/egret.min_d92caeca.js",
+		"js/egret.web.min_e835c5d0.js",
+		"js/game.min_8f561331.js",
+		"js/tween.min_6c5a88f9.js",
+		"js/assetsmanager.min_77c2fdfe.js",
+		"js/eui.min_e8f47f49.js",
+		"js/promise.min_83a6a5d.js",
+		"js/particle.min_d717ba80.js"
+	],
+	"game": [
+		"js/ThemeAdapter_e497229f.js",
+		"js/ButtonSkin_fff11732.js",
+		"js/startButtonSkin_29e8ece6.js",
+		"js/default.thm_eb68f0b0.js",
+		"js/main.min_67a11aba.js"
+	]
+}

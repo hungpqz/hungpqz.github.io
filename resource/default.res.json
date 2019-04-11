@@ -1,0 +1,85 @@
+{
+	"groups": [
+		{
+			"keys": "bgImage,btnStart,f1,f2,b1,b2,boss,gameOver,bloodBar,bloodBarBg,heart,newParticle_json,newParticle_png,explosion,bgSound",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bgImage"
+		},
+		{
+			"url": "assets/btn_start.png",
+			"type": "image",
+			"name": "btnStart"
+		},
+		{
+			"url": "assets/f1.png",
+			"type": "image",
+			"name": "f1"
+		},
+		{
+			"url": "assets/f2.png",
+			"type": "image",
+			"name": "f2"
+		},
+		{
+			"url": "assets/b1.png",
+			"type": "image",
+			"name": "b1"
+		},
+		{
+			"url": "assets/b2.png",
+			"type": "image",
+			"name": "b2"
+		},
+		{
+			"url": "assets/boss.png",
+			"type": "image",
+			"name": "boss"
+		},
+		{
+			"url": "assets/game-over.png",
+			"type": "image",
+			"name": "gameOver"
+		},
+		{
+			"url": "assets/bloodBar.png",
+			"type": "image",
+			"name": "bloodBar"
+		},
+		{
+			"url": "assets/bloodBarBg.png",
+			"type": "image",
+			"name": "bloodBarBg"
+		},
+		{
+			"url": "assets/buff_blood.png",
+			"type": "image",
+			"name": "heart"
+		},
+		{
+			"url": "assets/newParticle.json",
+			"type": "json",
+			"name": "newParticle_json"
+		},
+		{
+			"url": "assets/newParticle.png",
+			"type": "image",
+			"name": "newParticle_png"
+		},
+		{
+			"url": "assets/Bomb+2 (mp3cut.net).mp3",
+			"type": "sound",
+			"name": "explosion"
+		},
+		{
+			"url": "assets/sound.mp3",
+			"type": "sound",
+			"name": "bgSound"
+		}
+	]
+}
