@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,start_btn,start_sound,re_start_btn,re_view_q1_btn,re_view_q2_btn,re_view_q3_btn,re_view_q4_btn,re_view_q5_btn,send_restart_btn",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn"
+		},
+		{
+			"url": "assets/start_sound.mp3",
+			"type": "sound",
+			"name": "start_sound"
+		},
+		{
+			"url": "assets/re_start_btn.png",
+			"type": "image",
+			"name": "re_start_btn"
+		},
+		{
+			"url": "assets/re_view_q1_btn.png",
+			"type": "image",
+			"name": "re_view_q1_btn"
+		},
+		{
+			"url": "assets/re_view_q2_btn.png",
+			"type": "image",
+			"name": "re_view_q2_btn"
+		},
+		{
+			"url": "assets/re_view_q3_btn.png",
+			"type": "image",
+			"name": "re_view_q3_btn"
+		},
+		{
+			"url": "assets/re_view_q4_btn.png",
+			"type": "image",
+			"name": "re_view_q4_btn"
+		},
+		{
+			"url": "assets/re_view_q5_btn.png",
+			"type": "image",
+			"name": "re_view_q5_btn"
+		},
+		{
+			"url": "assets/send_restart_btn.png",
+			"type": "image",
+			"name": "send_restart_btn"
+		}
+	]
+}
