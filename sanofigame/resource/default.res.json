@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,start_scene_jpg,game_start_scene_jpg,count_down_3_scene_jpg,count_down_2_scene_jpg,count_down_1_scene_jpg,game_over_scene_jpg,how_to_play_scene_jpg,start_btn_png,auth_icon_png,check_connection,beep,mosquito_tex_png,mosquito_tex_json,mosquito_ske_json,count_down_0_scene_jpg,children_tex_png,children_tex_json,children_ske_json,wrong_btn,right_btn,b_btn,a_btn,bgsound,true_two_png,true_three_png,true_one_png,true_four_png,true_five_png,yeah,loser,game_win_scene_jpg,fail,winning,happykids_tex_png,happykids_tex_json,happykids_ske_json,crykids_tex_png,crykids_tex_json,crykids_ske_json,child_bg_png,true_zero_png,group_c_5_png,group_c_4_png,group_c_3_png,group_c_2_png,group_c_1_png,group_b_5_png,group_b_4_png,group_b_3_png,group_b_2_png,group_b_1_png,group_a_7_png,group_a_6_png,group_a_5_png,group_a_4_png,group_a_3_png,group_a_2_png,group_a_1_png,singlePlay_btn,restart_game_btn",
+			"keys": "bg_jpg,egret_icon_png,description_json,start_scene_jpg,game_start_scene_jpg,count_down_3_scene_jpg,count_down_2_scene_jpg,count_down_1_scene_jpg,game_over_scene_jpg,how_to_play_scene_jpg,start_btn_png,auth_icon_png,check_connection,beep,mosquito_tex_png,mosquito_tex_json,mosquito_ske_json,count_down_0_scene_jpg,children_tex_png,children_tex_json,children_ske_json,wrong_btn,right_btn,b_btn,a_btn,bgsound,true_two_png,true_three_png,true_one_png,true_four_png,true_five_png,yeah,loser,game_win_scene_jpg,fail,winning,happykids_tex_png,happykids_tex_json,happykids_ske_json,crykids_tex_png,crykids_tex_json,crykids_ske_json,child_bg_png,true_zero_png,group_c_5_png,group_c_4_png,group_c_3_png,group_c_2_png,group_c_1_png,group_b_5_png,group_b_4_png,group_b_3_png,group_b_2_png,group_b_1_png,group_a_7_png,group_a_6_png,group_a_5_png,group_a_4_png,group_a_3_png,group_a_2_png,group_a_1_png,singlePlay_btn,restart_game_btn,game_start_sound",
 			"name": "preload"
 		}
 	],
@@ -320,6 +320,11 @@
 			"url": "assets/restart_game_btn.png",
 			"type": "image",
 			"name": "restart_game_btn"
+		},
+		{
+			"url": "assets/game_start.mp3",
+			"type": "sound",
+			"name": "game_start_sound"
 		}
 	]
 }
