@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,action_btn_png,count_down_3_jpg,count_down_2_jpg,count_down_1_jpg,number_fnt,number_png,numbers_png,oops_minus_png,oops_png,scene_1_jpg,scene_2_jpg,scene_3_jpg,scene_4_jpg,scene_5_jpg,scene_6_jpg,scene_game_end_congrats_1_jpg,scene_game_end_congrats_2_jpg,scene_game_end_jpg,scene_game_start_jpg,yay_png,continue_btn,321_mp3,count_down_4_jpg,bg_music_mp3,click_mp3,restart_btn_png,bottom_item_1_png,bottom_item_2_png,bottom_item_3_png,bottom_item_4_png,top_item_4_png,top_item_3_png,top_item_2_png,top_item_1_png,special_item_4_png,special_item_3_png,special_item_2_png,special_item_1_png,Oops_mp3,Yeah_mp3,washer_open_png,winning_mp3,skip_btn_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,action_btn_png,count_down_3_jpg,count_down_2_jpg,count_down_1_jpg,number_fnt,number_png,numbers_png,oops_minus_png,oops_png,scene_1_jpg,scene_2_jpg,scene_3_jpg,scene_4_jpg,scene_5_jpg,scene_6_jpg,scene_game_end_congrats_1_jpg,scene_game_end_congrats_2_jpg,scene_game_end_jpg,scene_game_start_jpg,yay_png,continue_btn,321_mp3,count_down_4_jpg,bg_music_mp3,click_mp3,restart_btn_png,bottom_item_1_png,bottom_item_2_png,bottom_item_3_png,bottom_item_4_png,top_item_4_png,top_item_3_png,top_item_2_png,top_item_1_png,special_item_4_png,special_item_3_png,special_item_2_png,special_item_1_png,Oops_mp3,Yeah_mp3,washer_open_png,winning_mp3,skip_btn_png,three_mp3,two_mp3,one_mp3,start_btn_png,scene_4_item_4_png,scene_4_item_3_png,scene_4_item_2_png,scene_4_item_1_png,scene_5_item_4_png,scene_5_item_3_png,scene_5_item_2_png,scene_5_item_1_png,continue_touch_btn",
 			"name": "preload"
 		}
 	],
@@ -235,6 +235,71 @@
 			"url": "assets/skip_btn.png",
 			"type": "image",
 			"name": "skip_btn_png"
+		},
+		{
+			"url": "assets/one.mp3",
+			"type": "sound",
+			"name": "one_mp3"
+		},
+		{
+			"url": "assets/two.mp3",
+			"type": "sound",
+			"name": "two_mp3"
+		},
+		{
+			"url": "assets/three.mp3",
+			"type": "sound",
+			"name": "three_mp3"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/scene_4_item_1.png",
+			"type": "image",
+			"name": "scene_4_item_1_png"
+		},
+		{
+			"url": "assets/scene_4_item_2.png",
+			"type": "image",
+			"name": "scene_4_item_2_png"
+		},
+		{
+			"url": "assets/scene_4_item_3.png",
+			"type": "image",
+			"name": "scene_4_item_3_png"
+		},
+		{
+			"url": "assets/scene_4_item_4.png",
+			"type": "image",
+			"name": "scene_4_item_4_png"
+		},
+		{
+			"url": "assets/scene_5_item_1.png",
+			"type": "image",
+			"name": "scene_5_item_1_png"
+		},
+		{
+			"url": "assets/scene_5_item_2.png",
+			"type": "image",
+			"name": "scene_5_item_2_png"
+		},
+		{
+			"url": "assets/scene_5_item_3.png",
+			"type": "image",
+			"name": "scene_5_item_3_png"
+		},
+		{
+			"url": "assets/scene_5_item_4.png",
+			"type": "image",
+			"name": "scene_5_item_4_png"
+		},
+		{
+			"url": "assets/continue_touch_btn.png",
+			"type": "image",
+			"name": "continue_touch_btn"
 		}
 	]
 }
