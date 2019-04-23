@@ -1,0 +1,90 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,quay_giai_ba_btn_png,quay_giai_bon_btn_png,quay_giai_nhat_btn_png,quay_giai_nhi_btn_png,nhap_so_nguoi_btn_png,quay_lai_btn_png,quay_du_giai_nhi_btn_png,quay_du_giai_nhat_btn_png,quay_du_giai_bon_btn_png,quay_du_giai_ba_btn_png,tro_ve_btn_png,vao_man_hinh_quay_btn_png,chay_so_btn_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/quay_giai_ba_btn.png",
+			"type": "image",
+			"name": "quay_giai_ba_btn_png"
+		},
+		{
+			"url": "assets/quay_giai_bon_btn.png",
+			"type": "image",
+			"name": "quay_giai_bon_btn_png"
+		},
+		{
+			"url": "assets/quay_giai_nhat_btn.png",
+			"type": "image",
+			"name": "quay_giai_nhat_btn_png"
+		},
+		{
+			"url": "assets/quay_giai_nhi_btn.png",
+			"type": "image",
+			"name": "quay_giai_nhi_btn_png"
+		},
+		{
+			"url": "assets/nhap_so_nguoi_btn.png",
+			"type": "image",
+			"name": "nhap_so_nguoi_btn_png"
+		},
+		{
+			"url": "assets/quay_lai_btn.png",
+			"type": "image",
+			"name": "quay_lai_btn_png"
+		},
+		{
+			"url": "assets/quay_du_giai_ba_btn.png",
+			"type": "image",
+			"name": "quay_du_giai_ba_btn_png"
+		},
+		{
+			"url": "assets/quay_du_giai_bon_btn.png",
+			"type": "image",
+			"name": "quay_du_giai_bon_btn_png"
+		},
+		{
+			"url": "assets/quay_du_giai_nhat_btn.png",
+			"type": "image",
+			"name": "quay_du_giai_nhat_btn_png"
+		},
+		{
+			"url": "assets/quay_du_giai_nhi_btn.png",
+			"type": "image",
+			"name": "quay_du_giai_nhi_btn_png"
+		},
+		{
+			"url": "assets/tro_ve_btn.png",
+			"type": "image",
+			"name": "tro_ve_btn_png"
+		},
+		{
+			"url": "assets/vao_man_hinh_quay_btn.png",
+			"type": "image",
+			"name": "vao_man_hinh_quay_btn_png"
+		},
+		{
+			"url": "assets/chay_so_btn.png",
+			"type": "image",
+			"name": "chay_so_btn_png"
+		}
+	]
+}

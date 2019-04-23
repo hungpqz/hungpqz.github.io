@@ -1,0 +1,90 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,draw_scene_Four,draw_scene_One,draw_scene_Three,draw_scene_Two,number_png,number_fnt,title_jpg,draw_scene_DrawScene,start_btn_png,giai_nhi_title_png,giai_nhat_title_png,giai_bon_title_png,giai_ba_title_png,stop_btn_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "assets/draw_scene_Four.jpg",
+			"type": "image",
+			"name": "draw_scene_Four"
+		},
+		{
+			"url": "assets/draw_scene_One.jpg",
+			"type": "image",
+			"name": "draw_scene_One"
+		},
+		{
+			"url": "assets/draw_scene_Three.jpg",
+			"type": "image",
+			"name": "draw_scene_Three"
+		},
+		{
+			"url": "assets/draw_scene_Two.jpg",
+			"type": "image",
+			"name": "draw_scene_Two"
+		},
+		{
+			"url": "assets/number.png",
+			"type": "image",
+			"name": "number_png"
+		},
+		{
+			"url": "assets/number.fnt",
+			"type": "font",
+			"name": "number_fnt"
+		},
+		{
+			"url": "assets/title.jpg",
+			"type": "image",
+			"name": "title_jpg"
+		},
+		{
+			"url": "assets/draw_scene_DrawScene.jpg",
+			"type": "image",
+			"name": "draw_scene_DrawScene"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/giai_ba_title.png",
+			"type": "image",
+			"name": "giai_ba_title_png"
+		},
+		{
+			"url": "assets/giai_bon_title.png",
+			"type": "image",
+			"name": "giai_bon_title_png"
+		},
+		{
+			"url": "assets/giai_nhat_title.png",
+			"type": "image",
+			"name": "giai_nhat_title_png"
+		},
+		{
+			"url": "assets/giai_nhi_title.png",
+			"type": "image",
+			"name": "giai_nhi_title_png"
+		},
+		{
+			"url": "assets/stop_btn.png",
+			"type": "image",
+			"name": "stop_btn_png"
+		}
+	]
+}
