@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,quay_giai_ba_btn_png,quay_giai_bon_btn_png,quay_giai_nhat_btn_png,quay_giai_nhi_btn_png,nhap_so_nguoi_btn_png,quay_lai_btn_png,quay_du_giai_nhi_btn_png,quay_du_giai_nhat_btn_png,quay_du_giai_bon_btn_png,quay_du_giai_ba_btn_png,tro_ve_btn_png,vao_man_hinh_quay_btn_png,chay_so_btn_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,quay_giai_ba_btn_png,quay_giai_bon_btn_png,quay_giai_nhat_btn_png,quay_giai_nhi_btn_png,nhap_so_nguoi_btn_png,quay_lai_btn_png,quay_du_giai_nhi_btn_png,quay_du_giai_nhat_btn_png,quay_du_giai_bon_btn_png,quay_du_giai_ba_btn_png,tro_ve_btn_png,vao_man_hinh_quay_btn_png,chay_so_btn_png,start_sound_mp3",
 			"name": "preload"
 		}
 	],
@@ -85,6 +85,11 @@
 			"url": "assets/chay_so_btn.png",
 			"type": "image",
 			"name": "chay_so_btn_png"
+		},
+		{
+			"url": "assets/start_sound.mp3",
+			"type": "sound",
+			"name": "start_sound_mp3"
 		}
 	]
 }
