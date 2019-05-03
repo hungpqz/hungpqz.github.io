@@ -1,8 +1,12 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,girl_tex_png,girl_tex_json,girl_ske_json",
+			"keys": "bg_jpg,egret_icon_png",
 			"name": "preload"
+		},
+		{
+			"keys": "girl_ske_json,girl_tex_json,girl_tex_png",
+			"name": "inGame"
 		}
 	],
 	"resources": [
