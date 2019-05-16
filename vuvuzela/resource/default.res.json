@@ -1,11 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png",
+			"keys": "bg_jpg",
 			"name": "preload"
 		},
 		{
-			"keys": "girl_ske_json,girl_tex_json,girl_tex_png,bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png",
 			"name": "inGame"
 		}
 	],
