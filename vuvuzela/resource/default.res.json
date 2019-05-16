@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,girl_sieu_nhe_ske_json,girl_sieu_nhe_tex_json,girl_sieu_nhe_tex_png",
 			"name": "inGame"
 		}
 	],
@@ -84,6 +84,21 @@
 			"url": "assets/start_btn.png",
 			"type": "image",
 			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/girl_sieu_nhe_ske.json",
+			"type": "json",
+			"name": "girl_sieu_nhe_ske_json"
+		},
+		{
+			"url": "assets/girl_sieu_nhe_tex.json",
+			"type": "json",
+			"name": "girl_sieu_nhe_tex_json"
+		},
+		{
+			"url": "assets/girl_sieu_nhe_tex.png",
+			"type": "image",
+			"name": "girl_sieu_nhe_tex_png"
 		}
 	]
 }
