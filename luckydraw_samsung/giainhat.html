@@ -33,7 +33,7 @@
 		
         <!-- drawing animation -->
         <div class="ctnCounter">
-            <div id="flipcounter" align="center">01234567891234</div>
+            <div id="flipcounter" align="center">00000000000000</div>
             <script type="text/javascript">
                 // Make the flip counter
 				//localStorage.clear();
@@ -79,7 +79,7 @@
                                 </tr>
                                 <tr ng-repeat="person in filtered =(peopleDraw | filter:txtSearchCustomer) | limitTo:totalDisplayed track by person.STT">
                                     <td style="text-align:center;">{{person.STT}}</td>
-									<td>{{person.DATE_BUY}}</td>
+									<td style="text-align:center;">{{person.DATE_BUY}}</td>
                                     <td>{{person.MODEL}}</td>
                                     <td>{{person.IMEI}}</td>
                                     <td>{{person.BILL_ID}}</td>									
@@ -128,7 +128,7 @@
                                         </tr>
                                         <tr ng-repeat="person in currentPrice.results track by $index">
 											<td style="text-align:center;">{{ $index+1 }}</td>
-											<td>{{person.DATE_BUY}}</td>
+											<td style="text-align:center;">{{person.DATE_BUY}}</td>
 											<td>{{person.MODEL}}</td>
 											<td>{{person.IMEI}}</td>
 											<td>{{person.BILL_ID}}</td>											
@@ -161,10 +161,12 @@
 
     <!-- print -->
     <div class="visible-print-block">
+	
+	
         <p class="print_title">			
             <strong style="font-size:150%">KẾT QUẢ BUỔI QUAY SỐ TRÚNG THƯỞNG</strong><br/>
             <strong style="font-size:150%">{{programName}}</strong><br/>
-			<strong> ĐỢT {{drawDay}}: Lúc {{time}} Ngày {{date}}</strong><br/>
+			<strong> ĐỢT {{drawDay}}: Ngày {{date}}</strong><br/>
 			<strong> Địa điểm quay số: Cửa hàng Siêu thị Điện máy Nguyễn Kim, 63-65-67 Đường Trần Hưng Đạo,<br> Phường Cầu Ông Lãnh, Quận 1, TP. Hồ Chí Minh</strong><br/>
 
             <span>___________________</span><br/><br/>
@@ -174,7 +176,10 @@
 
         <p>&nbsp;</p>
 
-        <div>
+        <div >		
+		
+		
+		
             <div class="alert alert-info" ng-hide="currentPrice.results.length" style="text-align: center">Chưa có kết quả
             </div>
             <table class="table-bordered" style="width: 90%" ng-show="currentPrice.results.length">
@@ -188,7 +193,7 @@
                 </tr>
                 <tr ng-repeat="person in currentPrice.results track by $index">
                     <td style="text-align:center;">{{ $index+1 }}</td>
-					<td>{{person.DATE_BUY}}</td>
+					<td style="text-align:center;">{{person.DATE_BUY}}</td>
                     <td>{{person.MODEL}}</td>
                     <td>{{person.IMEI}}</td>
                     <td>{{person.BILL_ID}}</td>					
@@ -213,7 +218,8 @@
                 </tr>
             </table>
         </div>
-    </div>
+    
+	</div>
 
 </div>
 </body>

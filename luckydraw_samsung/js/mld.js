@@ -16,7 +16,9 @@ function mldCtrl($scope, $http) {
     $scope.drawDay = 1; // đợt
     $scope.date = '18/05/2019';//Ngày
 	today = new Date();
-	$scope.time = today.getHours() +":" + today.getMinutes(); //Thời gian
+	hour=("0" + today.getHours()).slice(-2);
+	minute=("0" + today.getMinutes()).slice(-2);
+	$scope.time = hour +":" + minute; //Thời gian
 	
     //setup quay price
     $scope.prices = [
