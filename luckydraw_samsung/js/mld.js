@@ -23,7 +23,7 @@ function mldCtrl($scope, $http) {
     //setup quay price
     $scope.prices = [
         {
-            title: "GIẢI THƯỞNG: TIVI SAMSUNG QLED 8K QA65Q900",
+            title: "GIẢI ĐẶC BIỆT: TIVI SAMSUNG QLED 8K QA65Q900",
             id: 1,
             day: 1,
             total: 1,// tong so giai
@@ -35,7 +35,7 @@ function mldCtrl($scope, $http) {
         } //type = 1 main price
 		,
 		{
-            title: "GIẢI THƯỞNG: PHIẾU KHÁM SỨC KHOẺ TỔNG QUÁT VINMEC",
+            title: "GIẢI KHUYẾN KHÍCH: PHIẾU KHÁM SỨC KHOẺ TỔNG QUÁT VINMEC",
             id: 2,
             day: 1,
             total: 50,// tong so giai
