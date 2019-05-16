@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "girl_ske_json,girl_tex_json,girl_tex_png",
+			"keys": "girl_ske_json,girl_tex_json,girl_tex_png,bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png",
 			"name": "inGame"
 		}
 	],
@@ -39,6 +39,51 @@
 			"url": "assets/NewProject_5_ske.json",
 			"type": "json",
 			"name": "girl_ske_json"
+		},
+		{
+			"url": "assets/sound/mp3/bg_music.mp3",
+			"type": "sound",
+			"name": "bg_music_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/game_start.mp3",
+			"type": "sound",
+			"name": "game_start_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/game_win.mp3",
+			"type": "sound",
+			"name": "game_win_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/loser.mp3",
+			"type": "sound",
+			"name": "loser_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/not_strong.mp3",
+			"type": "sound",
+			"name": "not_strong_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/so_strong.mp3",
+			"type": "sound",
+			"name": "so_strong_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/strong_enough.mp3",
+			"type": "sound",
+			"name": "strong_enough_mp3"
+		},
+		{
+			"url": "assets/sound/mp3/wave.mp3",
+			"type": "sound",
+			"name": "wave_mp3"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
 		}
 	]
 }
