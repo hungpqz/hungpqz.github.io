@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png,vua_tex_png,vua_mc_json",
 			"name": "inGame"
 		}
 	],
@@ -104,6 +104,16 @@
 			"url": "assets/gift_list.png",
 			"type": "image",
 			"name": "gift_list_png"
+		},
+		{
+			"url": "assets/vua_tex.png",
+			"type": "image",
+			"name": "vua_tex_png"
+		},
+		{
+			"url": "assets/vua_mc.json",
+			"type": "json",
+			"name": "vua_mc_json"
 		}
 	]
 }
