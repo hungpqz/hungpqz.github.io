@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,girl_sieu_nhe_ske_json,girl_sieu_nhe_tex_json,girl_sieu_nhe_tex_png",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png",
 			"name": "inGame"
 		}
 	],
@@ -19,26 +19,6 @@
 			"url": "assets/egret_icon.png",
 			"type": "image",
 			"name": "egret_icon_png"
-		},
-		{
-			"url": "config/description.json",
-			"type": "json",
-			"name": "description_json"
-		},
-		{
-			"url": "assets/NewProject_5_tex.png",
-			"type": "image",
-			"name": "girl_tex_png"
-		},
-		{
-			"url": "assets/NewProject_5_tex.json",
-			"type": "json",
-			"name": "girl_tex_json"
-		},
-		{
-			"url": "assets/NewProject_5_ske.json",
-			"type": "json",
-			"name": "girl_ske_json"
 		},
 		{
 			"url": "assets/sound/mp3/bg_music.mp3",
@@ -86,19 +66,29 @@
 			"name": "start_btn_png"
 		},
 		{
-			"url": "assets/girl_sieu_nhe_ske.json",
-			"type": "json",
-			"name": "girl_sieu_nhe_ske_json"
-		},
-		{
-			"url": "assets/girl_sieu_nhe_tex.json",
-			"type": "json",
-			"name": "girl_sieu_nhe_tex_json"
-		},
-		{
-			"url": "assets/girl_sieu_nhe_tex.png",
+			"url": "assets/bg_ingame.jpg",
 			"type": "image",
-			"name": "girl_sieu_nhe_tex_png"
+			"name": "bg_ingame_jpg"
+		},
+		{
+			"url": "assets/manh_mc.json",
+			"type": "json",
+			"name": "manh_mc_json"
+		},
+		{
+			"url": "assets/manh_tex.png",
+			"type": "image",
+			"name": "manh_tex_png"
+		},
+		{
+			"url": "assets/sieu_nhe_mc.json",
+			"type": "json",
+			"name": "sieu_nhe_mc_json"
+		},
+		{
+			"url": "assets/sieu_nhe_tex.png",
+			"type": "image",
+			"name": "sieu_nhe_tex_png"
 		}
 	]
 }
