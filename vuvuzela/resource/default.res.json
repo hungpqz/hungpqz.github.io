@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png,vua_tex_png,vua_mc_json",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png,vua_tex_png,vua_mc_json,unlucky_png,over_png,end_buy2get1_png,end_one_free_png,end_voucher10_png,end_voucher100_png,end_voucher20_png",
 			"name": "inGame"
 		}
 	],
@@ -114,6 +114,41 @@
 			"url": "assets/vua_mc.json",
 			"type": "json",
 			"name": "vua_mc_json"
+		},
+		{
+			"url": "assets/unlucky.png",
+			"type": "image",
+			"name": "unlucky_png"
+		},
+		{
+			"url": "assets/over.png",
+			"type": "image",
+			"name": "over_png"
+		},
+		{
+			"url": "assets/end_buy2get1.png",
+			"type": "image",
+			"name": "end_buy2get1_png"
+		},
+		{
+			"url": "assets/end_one_free.png",
+			"type": "image",
+			"name": "end_one_free_png"
+		},
+		{
+			"url": "assets/end_voucher10.png",
+			"type": "image",
+			"name": "end_voucher10_png"
+		},
+		{
+			"url": "assets/end_voucher100.png",
+			"type": "image",
+			"name": "end_voucher100_png"
+		},
+		{
+			"url": "assets/end_voucher20.png",
+			"type": "image",
+			"name": "end_voucher20_png"
 		}
 	]
 }
