@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png,vua_tex_png,vua_mc_json,unlucky_png,over_png,end_buy2get1_png,end_one_free_png,end_voucher10_png,end_voucher100_png,end_voucher20_png,guide_png,qr_jpg,submit_btn_png,form_png,facebook_png,number_fnt,number_png,lac_mc_json,lac_tex_png,not_strong_png,so_strong_png,strong_enough_png,game_start_call_png,game_win_call_png",
+			"keys": "bg_music_mp3,game_start_mp3,game_win_mp3,loser_mp3,not_strong_mp3,so_strong_mp3,strong_enough_mp3,wave_mp3,start_btn_png,bg_ingame_jpg,manh_mc_json,sieu_nhe_mc_json,sieu_nhe_tex_png,manh_tex_png,bg_start_jpg,gift_png,gift_list_png,vua_tex_png,vua_mc_json,unlucky_png,over_png,end_buy2get1_png,end_one_free_png,end_voucher10_png,end_voucher100_png,end_voucher20_png,guide_png,qr_jpg,submit_btn_png,form_png,facebook_png,number_fnt,number_png,lac_mc_json,lac_tex_png,not_strong_png,so_strong_png,strong_enough_png,game_start_call_png,game_win_call_png,replay_png,reward_jpg",
 			"name": "inGame"
 		}
 	],
@@ -219,6 +219,16 @@
 			"url": "assets/game_win_call.png",
 			"type": "image",
 			"name": "game_win_call_png"
+		},
+		{
+			"url": "assets/replay.png",
+			"type": "image",
+			"name": "replay_png"
+		},
+		{
+			"url": "assets/reward.jpg",
+			"type": "image",
+			"name": "reward_jpg"
 		}
 	]
 }
