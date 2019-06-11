@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "b1_jpg,b2_jpg,b3_jpg,b4_jpg,b5_jpg,b6_jpg,b7_jpg,b8_jpg,b9_jpg,bg_mp3,login_btn_jpg,one_mp3,three_mp3,two_mp3,a1_jpg,q1_jpg,answer_btn_png,Yeah_mp3,r1_jpg,r1_2_jpg,Oops_mp3,r1_1_jpg,end_1_lose_jpg,end_1_win_jpg,r2_jpg,r2_2_jpg,r2_1_jpg,end_2_lose_jpg,end_2_win_jpg,q2_jpg,a2_jpg,a3_jpg,q3_jpg,r3_jpg,r3_2_jpg,r3_1_jpg,end_3_lose_jpg,end_3_win_jpg,r4_jpg,r4_2_jpg,r4_1_jpg,a4_jpg,q4_jpg,end_4_win_jpg,end_4_lose_jpg,r6_jpg,r6_2_jpg,r6_1_jpg,r5_jpg,r5_2_jpg,r5_1_jpg,end_5_jpg,q6_jpg,a6_jpg,a5_jpg,q5_jpg,end_6_jpg,star_btn_png,one_star_png,five_star_png,three_star_png,two_star_png,four_star_png,click_mp3,cont_btn_png,b4_png,count_down_two_png,count_down_three_png,count_down_one_png",
+			"keys": "b1_jpg,b2_jpg,b3_jpg,b4_jpg,b5_jpg,b6_jpg,b7_jpg,b8_jpg,b9_jpg,bg_mp3,login_btn_jpg,a1_jpg,q1_jpg,answer_btn_png,Yeah_mp3,r1_jpg,r1_2_jpg,Oops_mp3,r1_1_jpg,end_1_lose_jpg,end_1_win_jpg,r2_jpg,r2_2_jpg,r2_1_jpg,end_2_lose_jpg,end_2_win_jpg,q2_jpg,a2_jpg,a3_jpg,q3_jpg,r3_jpg,r3_2_jpg,r3_1_jpg,end_3_lose_jpg,end_3_win_jpg,r4_jpg,r4_2_jpg,r4_1_jpg,a4_jpg,q4_jpg,end_4_win_jpg,end_4_lose_jpg,r6_jpg,r6_2_jpg,r6_1_jpg,r5_jpg,r5_2_jpg,r5_1_jpg,end_5_jpg,q6_jpg,a6_jpg,a5_jpg,q5_jpg,end_6_jpg,star_btn_png,one_star_png,five_star_png,three_star_png,two_star_png,four_star_png,click_mp3,cont_btn_png,b4_png,count_down_two_png,count_down_three_png,count_down_one_png,q6_text_png,q6_ground_jpg,q5_text2_png,q5_text_png,q5_ground_jpg,q4_ground_jpg,q4_text_png,q4_text2_png,q3_ground_jpg,q3_text_png,q3_text2_png,countdown_mp3,q2_ground_jpg,q2_text_png,q2_text2_png,q1_ground_jpg,q1_text_png,q1_text2_png,cont_text_png,continue_mp3",
 			"name": "preload"
 		}
 	],
@@ -60,21 +60,6 @@
 			"url": "assets/login_btn.jpg",
 			"type": "image",
 			"name": "login_btn_jpg"
-		},
-		{
-			"url": "assets/sound/one.mp3",
-			"type": "sound",
-			"name": "one_mp3"
-		},
-		{
-			"url": "assets/sound/three.mp3",
-			"type": "sound",
-			"name": "three_mp3"
-		},
-		{
-			"url": "assets/sound/two.mp3",
-			"type": "sound",
-			"name": "two_mp3"
 		},
 		{
 			"url": "assets/q1.jpg",
@@ -375,6 +360,106 @@
 			"url": "assets/count_down_two.png",
 			"type": "image",
 			"name": "count_down_two_png"
+		},
+		{
+			"url": "assets/q6_text.png",
+			"type": "image",
+			"name": "q6_text_png"
+		},
+		{
+			"url": "assets/q6_ground.jpg",
+			"type": "image",
+			"name": "q6_ground_jpg"
+		},
+		{
+			"url": "assets/q5_text.png",
+			"type": "image",
+			"name": "q5_text_png"
+		},
+		{
+			"url": "assets/q5_text2.png",
+			"type": "image",
+			"name": "q5_text2_png"
+		},
+		{
+			"url": "assets/q5_ground.jpg",
+			"type": "image",
+			"name": "q5_ground_jpg"
+		},
+		{
+			"url": "assets/q4_ground.jpg",
+			"type": "image",
+			"name": "q4_ground_jpg"
+		},
+		{
+			"url": "assets/q4_text.png",
+			"type": "image",
+			"name": "q4_text_png"
+		},
+		{
+			"url": "assets/q4_text2.png",
+			"type": "image",
+			"name": "q4_text2_png"
+		},
+		{
+			"url": "assets/q3_ground.jpg",
+			"type": "image",
+			"name": "q3_ground_jpg"
+		},
+		{
+			"url": "assets/q3_text.png",
+			"type": "image",
+			"name": "q3_text_png"
+		},
+		{
+			"url": "assets/q3_text2.png",
+			"type": "image",
+			"name": "q3_text2_png"
+		},
+		{
+			"url": "assets/sound/countdown.mp3",
+			"type": "sound",
+			"name": "countdown_mp3"
+		},
+		{
+			"url": "assets/q2_ground.jpg",
+			"type": "image",
+			"name": "q2_ground_jpg"
+		},
+		{
+			"url": "assets/q2_text.png",
+			"type": "image",
+			"name": "q2_text_png"
+		},
+		{
+			"url": "assets/q2_text2.png",
+			"type": "image",
+			"name": "q2_text2_png"
+		},
+		{
+			"url": "assets/q1_ground.jpg",
+			"type": "image",
+			"name": "q1_ground_jpg"
+		},
+		{
+			"url": "assets/q1_text.png",
+			"type": "image",
+			"name": "q1_text_png"
+		},
+		{
+			"url": "assets/q1_text2.png",
+			"type": "image",
+			"name": "q1_text2_png"
+		},
+		{
+			"url": "assets/cont_text.png",
+			"type": "image",
+			"name": "cont_text_png"
+		},
+		{
+			"url": "assets/sound/continue.mp3",
+			"type": "sound",
+			"name": "continue_mp3"
 		}
 	]
 }
