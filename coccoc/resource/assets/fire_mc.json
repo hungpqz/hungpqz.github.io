@@ -1,0 +1,1 @@
+{"mc":{"fire":{"frames":[{"duration":3,"y":-68,"res":"fire_0","x":-60},{"duration":3,"y":-78,"res":"fire_3","x":-60}],"labels":[{"end":6,"frame":1,"name":"fire"}],"frameRate":24,"events":[]}},"res":{"fire_0":{"x":123,"y":1,"w":120,"h":146},"fire_3":{"x":1,"y":1,"w":120,"h":156}},"file":"fire_tex.png"}
