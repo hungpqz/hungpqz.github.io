@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "lion_mc_json,lion_tex_png,obtacle_png,stage1-4_mp3,failure_mp3,jump_mp3,hit_mp3,title_jpg,bgtile_jpg,scoreboard_jpg,fire_mc_json,fire_tex_png,replay_btn_png,number_fnt,number_png",
+			"keys": "lion_mc_json,lion_tex_png,stage1-4_mp3,failure_mp3,jump_mp3,hit_mp3,title_jpg,fire_mc_json,fire_tex_png,replay_btn_png,number_fnt,number_png,scoreboard_png,bg_jpg,bg_run_png,toang_png",
 			"name": "preload"
 		}
 	],
@@ -95,6 +95,21 @@
 			"url": "assets/font/number.png",
 			"type": "image",
 			"name": "number_png"
+		},
+		{
+			"url": "assets/scoreboard.png",
+			"type": "image",
+			"name": "scoreboard_png"
+		},
+		{
+			"url": "assets/bg_run.png",
+			"type": "image",
+			"name": "bg_run_png"
+		},
+		{
+			"url": "assets/toang.png",
+			"type": "image",
+			"name": "toang_png"
 		}
 	]
 }
