@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "lion_mc_json,lion_tex_png,stage1-4_mp3,failure_mp3,jump_mp3,hit_mp3,title_jpg,fire_mc_json,fire_tex_png,number_fnt,number_png,bg_run_png,toang_png,start_btn_png,bg_png,logo_png",
+			"keys": "lion_mc_json,lion_tex_png,stage1-4_mp3,failure_mp3,jump_mp3,hit_mp3,title_jpg,fire_mc_json,fire_tex_png,number_fnt,number_png,bg_run_png,toang_png,start_btn_png,logo_png,bg_png",
 			"name": "preload"
 		}
 	],
@@ -47,11 +47,6 @@
 			"name": "title_jpg"
 		},
 		{
-			"url": "assets/bgtile.jpg",
-			"type": "image",
-			"name": "bgtile_jpg"
-		},
-		{
 			"url": "assets/fire_mc.json",
 			"type": "json",
 			"name": "fire_mc_json"
@@ -62,11 +57,6 @@
 			"name": "fire_tex_png"
 		},
 		{
-			"url": "assets/replay_btn.png",
-			"type": "image",
-			"name": "replay_btn_png"
-		},
-		{
 			"url": "assets/font/number.fnt",
 			"type": "font",
 			"name": "number_fnt"
@@ -75,11 +65,6 @@
 			"url": "assets/font/number.png",
 			"type": "image",
 			"name": "number_png"
-		},
-		{
-			"url": "assets/scoreboard.png",
-			"type": "image",
-			"name": "scoreboard_png"
 		},
 		{
 			"url": "assets/bg_run.png",
@@ -97,14 +82,14 @@
 			"name": "start_btn_png"
 		},
 		{
-			"url": "assets/bg.png",
-			"type": "image",
-			"name": "bg_png"
-		},
-		{
 			"url": "assets/logo.png",
 			"type": "image",
 			"name": "logo_png"
+		},
+		{
+			"url": "assets/bg.png",
+			"type": "image",
+			"name": "bg_png"
 		}
 	]
 }
