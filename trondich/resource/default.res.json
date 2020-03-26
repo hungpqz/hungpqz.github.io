@@ -1,0 +1,95 @@
+{
+	"groups": [
+		{
+			"keys": "lion_mc_json,lion_tex_png,stage1-4_mp3,failure_mp3,jump_mp3,hit_mp3,title_jpg,fire_mc_json,fire_tex_png,number_fnt,number_png,bg_run_png,toang_png,start_btn_png,logo_png,bg_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/lion_mc.json",
+			"type": "json",
+			"name": "lion_mc_json"
+		},
+		{
+			"url": "assets/lion_tex.png",
+			"type": "image",
+			"name": "lion_tex_png"
+		},
+		{
+			"url": "assets/audio/failure.mp3",
+			"type": "sound",
+			"name": "failure_mp3"
+		},
+		{
+			"url": "assets/audio/stage1-4.mp3",
+			"type": "sound",
+			"name": "stage1-4_mp3"
+		},
+		{
+			"url": "assets/audio/jump.mp3",
+			"type": "sound",
+			"name": "jump_mp3"
+		},
+		{
+			"url": "assets/audio/hit.mp3",
+			"type": "sound",
+			"name": "hit_mp3"
+		},
+		{
+			"url": "assets/title.jpg",
+			"type": "image",
+			"name": "title_jpg"
+		},
+		{
+			"url": "assets/fire_mc.json",
+			"type": "json",
+			"name": "fire_mc_json"
+		},
+		{
+			"url": "assets/fire_tex.png",
+			"type": "image",
+			"name": "fire_tex_png"
+		},
+		{
+			"url": "assets/font/number.fnt",
+			"type": "font",
+			"name": "number_fnt"
+		},
+		{
+			"url": "assets/font/number.png",
+			"type": "image",
+			"name": "number_png"
+		},
+		{
+			"url": "assets/bg_run.png",
+			"type": "image",
+			"name": "bg_run_png"
+		},
+		{
+			"url": "assets/toang.png",
+			"type": "image",
+			"name": "toang_png"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "assets/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		}
+	]
+}
