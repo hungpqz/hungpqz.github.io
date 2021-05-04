@@ -1,0 +1,185 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,title_jpg,start_btn_png,ball_0_png,ball_1_png,ball_2_png,ball_3_png,ball_4_png,ball_5_png,ball_6_png,ball_7_png,ball_8_png,ball_9_png,guide_jpg,game_bg_jpg,score_board_png,time_board_png,ball_6_selected_png,ball_3_selected_png,ball_1_selected_png,ball_5_selected_png,gun_png,gameInfo_jpg,gameOver_jpg,ball_0_selected_png,ball_2_selected_png,ball_8_selected_png,bg_sound_mp3,click_mp3,winning_mp3,Yeah_mp3,cam_click_mp3,pencil_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/title.jpg",
+			"type": "image",
+			"name": "title_jpg"
+		},
+		{
+			"url": "assets/start_btn.png",
+			"type": "image",
+			"name": "start_btn_png"
+		},
+		{
+			"url": "assets/ball_0.png",
+			"type": "image",
+			"name": "ball_0_png"
+		},
+		{
+			"url": "assets/ball_1.png",
+			"type": "image",
+			"name": "ball_1_png"
+		},
+		{
+			"url": "assets/ball_2.png",
+			"type": "image",
+			"name": "ball_2_png"
+		},
+		{
+			"url": "assets/ball_3.png",
+			"type": "image",
+			"name": "ball_3_png"
+		},
+		{
+			"url": "assets/ball_4.png",
+			"type": "image",
+			"name": "ball_4_png"
+		},
+		{
+			"url": "assets/ball_5.png",
+			"type": "image",
+			"name": "ball_5_png"
+		},
+		{
+			"url": "assets/ball_6.png",
+			"type": "image",
+			"name": "ball_6_png"
+		},
+		{
+			"url": "assets/ball_7.png",
+			"type": "image",
+			"name": "ball_7_png"
+		},
+		{
+			"url": "assets/ball_8.png",
+			"type": "image",
+			"name": "ball_8_png"
+		},
+		{
+			"url": "assets/ball_9.png",
+			"type": "image",
+			"name": "ball_9_png"
+		},
+		{
+			"url": "assets/guide.jpg",
+			"type": "image",
+			"name": "guide_jpg"
+		},
+		{
+			"url": "assets/game_bg.jpg",
+			"type": "image",
+			"name": "game_bg_jpg"
+		},
+		{
+			"url": "assets/score_board.png",
+			"type": "image",
+			"name": "score_board_png"
+		},
+		{
+			"url": "assets/time_board.png",
+			"type": "image",
+			"name": "time_board_png"
+		},
+		{
+			"url": "assets/ball_1_selected.png",
+			"type": "image",
+			"name": "ball_1_selected_png"
+		},
+		{
+			"url": "assets/ball_3_selected.png",
+			"type": "image",
+			"name": "ball_3_selected_png"
+		},
+		{
+			"url": "assets/ball_5_selected.png",
+			"type": "image",
+			"name": "ball_5_selected_png"
+		},
+		{
+			"url": "assets/ball_6_selected.png",
+			"type": "image",
+			"name": "ball_6_selected_png"
+		},
+		{
+			"url": "assets/gun.png",
+			"type": "image",
+			"name": "gun_png"
+		},
+		{
+			"url": "assets/gameInfo.jpg",
+			"type": "image",
+			"name": "gameInfo_jpg"
+		},
+		{
+			"url": "assets/gameOver.jpg",
+			"type": "image",
+			"name": "gameOver_jpg"
+		},
+		{
+			"url": "assets/ball_8_selected.png",
+			"type": "image",
+			"name": "ball_8_selected_png"
+		},
+		{
+			"url": "assets/ball_0_selected.png",
+			"type": "image",
+			"name": "ball_0_selected_png"
+		},
+		{
+			"url": "assets/ball_2_selected.png",
+			"type": "image",
+			"name": "ball_2_selected_png"
+		},
+		{
+			"url": "assets/sounds/bg_sound.mp3",
+			"type": "sound",
+			"name": "bg_sound_mp3"
+		},
+		{
+			"url": "assets/sounds/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "assets/sounds/winning.mp3",
+			"type": "sound",
+			"name": "winning_mp3"
+		},
+		{
+			"url": "assets/sounds/Yeah.mp3",
+			"type": "sound",
+			"name": "Yeah_mp3"
+		},
+		{
+			"url": "assets/sounds/cam_click.mp3",
+			"type": "sound",
+			"name": "cam_click_mp3"
+		},
+		{
+			"url": "assets/sounds/pencil.mp3",
+			"type": "sound",
+			"name": "pencil_mp3"
+		}
+	]
+}
