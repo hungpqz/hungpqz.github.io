@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_png,frame_1_png,frame_2_png,frame_3_png,frame_4_png,frame_567_png,001A_jpg,001B_jpg,slider_png,002A_jpg,002B_jpg,003A_jpg,003B_jpg,004A_jpg,004B_jpg,005A_jpg,005B_jpg,006A_jpg,006B_jpg,007A_jpg,007B_jpg,008B_jpg,008A_jpg",
+			"keys": "bg_png,frame_1_png,frame_2_png,frame_3_png,frame_4_png,frame_567_png,001A_jpg,001B_jpg,slider_png,002A_jpg,002B_jpg,003A_jpg,003B_jpg,004A_jpg,004B_jpg,005A_jpg,005B_jpg,006A_jpg,006B_jpg,007A_jpg,007B_jpg,008B_jpg,008A_jpg,left_btn_png",
 			"name": "preload"
 		}
 	],
@@ -130,6 +130,11 @@
 			"url": "assets/008A.jpg",
 			"type": "image",
 			"name": "008A_jpg"
+		},
+		{
+			"url": "assets/left_btn.png",
+			"type": "image",
+			"name": "left_btn_png"
 		}
 	]
 }
