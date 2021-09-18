@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "walker.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 397,
+				"h": 150
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "girl/walk/walk_001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 2,
+						"w": 52,
+						"h": 148
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 148
+					}
+				},
+				{
+					"filename": "girl/walk/walk_002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 78,
+						"h": 147
+					},
+					"frame": {
+						"x": 55,
+						"y": 1,
+						"w": 78,
+						"h": 147
+					}
+				},
+				{
+					"filename": "girl/walk/walk_003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 3,
+						"w": 65,
+						"h": 146
+					},
+					"frame": {
+						"x": 135,
+						"y": 1,
+						"w": 65,
+						"h": 146
+					}
+				},
+				{
+					"filename": "girl/fail/fail_001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 114,
+						"h": 143
+					},
+					"frame": {
+						"x": 202,
+						"y": 1,
+						"w": 114,
+						"h": 143
+					}
+				},
+				{
+					"filename": "girl/jump/jump_001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 4,
+						"w": 78,
+						"h": 143
+					},
+					"frame": {
+						"x": 318,
+						"y": 1,
+						"w": 78,
+						"h": 143
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1a0c7189462a12468fd2ae042ee19f89:5edbf54134efc137bc5e4c05f9014a04:f88fd930c3ec52f585d0c1bc69f4580c$"
+	}
+}
