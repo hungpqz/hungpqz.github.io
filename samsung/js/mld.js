@@ -394,7 +394,7 @@ function mldCtrl($scope, $http) {
                     $scope.rollingOutEffect();
 					
 					
-                }, 4000); //Stop 4s to see the result
+                }, 10000); //Stop 10s to see the result
 				
                 return;
             }
