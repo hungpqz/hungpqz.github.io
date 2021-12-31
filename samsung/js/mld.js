@@ -438,7 +438,7 @@ function mldCtrl($scope, $http) {
 		}
 	}
     $scope.redirectHome = function () {
-        window.location = "home.html";
+        window.location = "ready.html";
     }
 	$scope.flipRedrawDacbiet = function () {
         window.location = "redrawdacbiet.html";
