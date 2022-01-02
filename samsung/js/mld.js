@@ -5,6 +5,7 @@ function mldCtrl($scope, $http) {
     $scope.flip_work = false;
 	$scope.flip_continue = false;
     $scope.testSession = true;
+	$scope.turn=1;
     //$scope.printAward = [];
 
     $scope.peopleList = [];
@@ -381,7 +382,15 @@ function mldCtrl($scope, $http) {
         if (items.length > 0) {
             itta = items.shift();
             $scope.itemEffect.push(itta);
-            $scope.fliptimeout = 1;
+			if ($scope.turn==1)
+			{
+				$scope.fliptimeout = 1;
+				$scope.turn=0;
+			}
+			else
+			{
+				$scope.fliptimeout = 15;
+			}
             $scope.updateLoop(itta, true);
             setTimeout(function () {
 				
