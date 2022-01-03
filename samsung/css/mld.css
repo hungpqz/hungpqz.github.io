@@ -24,7 +24,7 @@ th {
 
 .ctnCounter {
     position: absolute;
-    top: 510px;
+    top: 80px;
 	margin-left: 270px;
     height: 97px;
     width: 813px;
@@ -144,28 +144,28 @@ th {
 	margin-top: -25px;
 }
 .btn_next {
-    width: 680px;
-    height: 468px;
+    width: 1117px;
+    height: 486px;
     background: url("../images/next_btn.png") no-repeat;
     border: none;
-	margin-left: -5px;
-	margin-top: 20px;
+	margin-left: 153px;
+	margin-top: 21px;
 }
 .btn_dacbiet {
     width: 618px;
-    height: 396px;
+    height: 460px;
     background: url("../images/tv_btn.png") no-repeat;
     border: none;
-	margin-left: 4px;
+	margin-left: 28px;
 	margin-top: 0px;
 }
 .btn_giainhat {
     width: 618px;
-    height: 560px;
+    height: 480px;
     background: url("../images/vinmec_btn.png") no-repeat;
     border: none;
-	margin-left: 55px;
-	margin-top: 55px;
+	margin-left: 15px;
+	margin-top: 124px;
 }
 .btn_khuyenkhich {
     width: 300px;

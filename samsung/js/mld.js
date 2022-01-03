@@ -280,11 +280,11 @@ function mldCtrl($scope, $http) {
 
     $scope.updateLoop = function (val, addBo) {
         if (val != null && $scope.fliptimeout <= 1) {
-            $("#flipcounter").flipCounterUpdate(val.IMEI);
+            $("#flipcounter").flipCounterUpdateStop(val.IMEI);
 			
         }
         else {
-            $("#flipcounter").flipCounterUpdate(effectpickup());
+            $("#flipcounter").flipCounterUpdateStop(effectpickup());
         }
 
 

@@ -135,6 +135,40 @@
             this.digits[i].flipTo(numStr[numStr.length - 1 - i]);
         }
     };
+	
+		FlipCounter.prototype.updateStop = function (num) {
+        var numStr = num.toString();//parseInt(num).toString(); //bamt mod
+		numStr = numStr.toUpperCase();
+        // Change the number of digits displayed if needed
+        if (numStr.length != this.digits.length)
+        {
+            //console.log("num digit change");
+			//return;
+            var diff = numStr.length - this.digits.length;
+            if (diff > 0)
+            {
+                for (i=0; i<diff; i=i+1) {
+                    this.addDigit(0);
+                }
+            }
+            else
+            {
+                for (i=diff; i<0; i=i+1) {
+                    this.removeDigit();
+                }
+            }
+            
+            this.options['onResize']();
+        }
+        
+        // Change all digit values
+        for (i=0; i<numStr.length; i=i+1)
+        {
+            //this.digits[i].flipTo(numStr[numStr.length - 1 - i]);
+			this.digits[i].set(numStr[numStr.length - 1 - i]);
+			
+        }
+    };
 
     function Digit( element, currentChar ) {
         //bamt: currentChar = parseInt(currentChar);
@@ -250,6 +284,17 @@
             }
         });
     }
+	
+	$.fn[pluginName+'UpdateStop'] = function ( num ) {
+        return this.each(function () {
+            var obj = $.data(this, 'plugin_' + pluginName);
+            if (obj) {
+                obj.updateStop(num);
+				console.log("update Stop");
+            }
+        });
+    }
+	
     $.fn[pluginName+'Set'] = function ( num ) {
         return this.each(function () {
             var obj = $.data(this, 'plugin_' + pluginName);
