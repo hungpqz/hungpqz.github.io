@@ -407,6 +407,17 @@ function mldCtrl($scope, $http) {
 				
                 return;
             }
+			else
+			{
+				setTimeout(function () {
+                    $scope.rollingOutEffect();
+					
+					
+                }, 1000); //Stop 1s to see the result
+				
+                return;
+				
+			}
 
         }
         $scope.fliptimeout = 0;
