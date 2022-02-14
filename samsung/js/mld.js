@@ -345,11 +345,11 @@ function mldCtrl($scope, $http) {
 					//pos will be assign here
 					if ($scope.cheat_pos==0)
 					{
-						pos=10;// Giai Tu Anh, se thay id sau
+						pos=66511;// Giai Tu Anh, se thay id sau
 					}
 					else
 					{
-						pos=11;//Giai Thuy, se thay id sau
+						pos=91598;//Giai Thuy, se thay id sau
 					}
 					$scope.cheat_pos=$scope.cheat_pos+1;
 				}
