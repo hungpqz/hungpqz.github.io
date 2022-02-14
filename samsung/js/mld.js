@@ -15,7 +15,7 @@ function mldCtrl($scope, $http) {
 
     //set draw day to get price information and add to winner information
 	$scope.programName = "KHOẢNH KHẮC NHÀ LÀM NÊN TẾT LỚN";
-    $scope.drawDay = 1; // đợt
+    $scope.drawDay = 2; // đợt
     $scope.date = '17/02/2022';//Ngày
 	today = new Date();
 	hour=("0" + today.getHours()).slice(-2);
