@@ -41,8 +41,8 @@ function mldCtrl($scope, $http) {
             id: 2,
             day: 1,
             total: 18,// tong so giai
-            draw: 1,// so lan quay
-            nod: 18, //so giai moi lan quay
+            draw: 2,// so lan quay
+            nod: 9, //so giai moi lan quay
             time: 0,//chem gio phat
             results: [],
             type: 1
