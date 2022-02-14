@@ -42,6 +42,30 @@
                     'onFlip': function () {
                     }
                 });
+				
+			console.log("Final is, ",localStorage.getItem("final"));
+				
+				$(document).keypress(function(e) {
+				console.log("test key press ",e.which);
+				if(e.which == 114) {
+						// r pressed
+						//reload windows
+						console.log("r pressed");
+						// Make a reset data
+						localStorage.clear();
+						location.reload();
+					}
+					
+				if(e.which == 99) {
+						// r pressed
+						//reload windows
+						console.log("c pressed");
+						// Make a reset data
+						localStorage.clear();
+						localStorage.setItem("final", "yes");
+						location.reload();
+					}
+				});
             </script>
 
         </div>
@@ -174,7 +198,7 @@
 </strong><br/>
 
             <span>_____________________________</span><br/><br/>
-            <strong>{{currentPrice.title}} 1 Máy hút bụi Samsung VR15A6031R1/SV</strong><br/>
+            <strong>{{currentPrice.title}} 1 Máy hút bụi Samsung VS15A6031R1/SV</strong><br/>
 			<strong>1 Lò vi sóng Samsung MG23T5018CK/SV</strong><br/>
 			<strong>1 Máy lọc không khí Samsung AX40R3030WM/SV</strong><br/>
         </p>

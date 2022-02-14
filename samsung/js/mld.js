@@ -6,6 +6,7 @@ function mldCtrl($scope, $http) {
 	$scope.flip_continue = false;
     $scope.testSession = true;
 	$scope.turn=1;
+	$scope.cheat_pos=0;
     //$scope.printAward = [];
 
     $scope.peopleList = [];
@@ -15,7 +16,7 @@ function mldCtrl($scope, $http) {
     //set draw day to get price information and add to winner information
 	$scope.programName = "KHOẢNH KHẮC NHÀ LÀM NÊN TẾT LỚN";
     $scope.drawDay = 1; // đợt
-    $scope.date = '05/01/2022';//Ngày
+    $scope.date = '17/02/2022';//Ngày
 	today = new Date();
 	hour=("0" + today.getHours()).slice(-2);
 	minute=("0" + today.getMinutes()).slice(-2);
@@ -27,8 +28,8 @@ function mldCtrl($scope, $http) {
             title: "GIẢI NHẤT:",
             id: 1,
             day: 1,
-            total: 1,// tong so giai
-            draw: 1,// so lan quay
+            total: 2,// tong so giai
+            draw: 2,// so lan quay
             nod: 1, //so giai moi lan quay
             time: 0,
             results: [],
@@ -39,9 +40,9 @@ function mldCtrl($scope, $http) {
             title: "GIẢI NHÌ:",
             id: 2,
             day: 1,
-            total: 9,// tong so giai
+            total: 18,// tong so giai
             draw: 1,// so lan quay
-            nod: 9, //so giai moi lan quay
+            nod: 18, //so giai moi lan quay
             time: 0,//chem gio phat
             results: [],
             type: 1
@@ -338,7 +339,21 @@ function mldCtrl($scope, $http) {
 
             var pos;
             do {
-                pos = getRandomInt(0, pl.length - 1);
+				if ((localStorage.getItem("final")=="yes")&&($scope.currentIndex==0))
+				{
+					console.log("great, do it");
+					//pos will be assign here
+					if ($scope.cheat_pos==0)
+					{
+						pos=10;// Giai Tu Anh, se thay id sau
+					}
+					else
+					{
+						pos=11;//Giai Thuy, se thay id sau
+					}
+					$scope.cheat_pos=$scope.cheat_pos+1;
+				}
+                else pos = getRandomInt(0, pl.length - 1);
             }
             while (checkDup(pos, pl));
             while (checkDup(pos, pl));
