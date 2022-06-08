@@ -81,4 +81,10 @@
 }
 .line {
 }
+.list_box {
+  color:#000000;
+  text-align:left;
+}
+.table_cell {
+}
 textarea, select, input, button { outline: none; }
