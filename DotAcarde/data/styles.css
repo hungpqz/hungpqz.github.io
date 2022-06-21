@@ -71,8 +71,15 @@
 .paragraph {
   text-align:left;
 }
+.line {
+}
+.arrow {
+}
 .text_field {
   color:#000000;
+  text-align:left;
+}
+.checkbox {
   text-align:left;
 }
 .flow_shape {
