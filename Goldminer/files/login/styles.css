@@ -169,16 +169,16 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:300px;
-  height:170px;
+  width:219px;
+  height:165px;
 }
 #u4 {
   border-width:0px;
   position:absolute;
-  left:392px;
-  top:114px;
-  width:300px;
-  height:170px;
+  left:433px;
+  top:119px;
+  width:219px;
+  height:165px;
   display:flex;
 }
 #u4 .text {
@@ -192,4 +192,5 @@
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
+  visibility:hidden;
 }
