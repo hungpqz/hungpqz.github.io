@@ -14,9 +14,9 @@ function mldCtrl($scope, $http) {
     $scope.peopleTest = [];
 
     //set draw day to get price information and add to winner information
-	$scope.programName = "KHOẢNH KHẮC NHÀ LÀM NÊN TẾT LỚN";
-    $scope.drawDay = 2; // đợt
-    $scope.date = '17/02/2022';//Ngày
+	$scope.programName = "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN";
+    $scope.drawDay = 1; // đợt
+    $scope.date = '23/12/2023';//Ngày
 	today = new Date();
 	hour=("0" + today.getHours()).slice(-2);
 	minute=("0" + today.getMinutes()).slice(-2);
@@ -28,8 +28,8 @@ function mldCtrl($scope, $http) {
             title: "GIẢI NHẤT:",
             id: 1,
             day: 1,
-            total: 2,// tong so giai
-            draw: 2,// so lan quay
+            total: 1,// tong so giai
+            draw: 1,// so lan quay
             nod: 1, //so giai moi lan quay
             time: 0,
             results: [],
@@ -353,6 +353,35 @@ function mldCtrl($scope, $http) {
 					}
 					$scope.cheat_pos=$scope.cheat_pos+1;
 				}
+				else if ((localStorage.getItem("final")=="yes")&&($scope.currentIndex==1))
+				{
+					console.log("great, do it, 2nd");
+					//pos will be assign here
+					if ($scope.cheat_pos==2)
+					{
+						pos=145177;// giai ky gui 1
+					}
+					else if ($scope.cheat_pos==3)
+					{
+						pos=145178;//giai ky gui 2
+					}
+					else if ($scope.cheat_pos==4)
+					{
+						pos=145179;//Giai ky gui 3
+					}
+					else if ($scope.cheat_pos==5)
+					{
+						pos=145180;//Giai ky gui 4
+					}
+					else if ($scope.cheat_pos==6)
+					{
+						pos=145181;//Giai ky gui 5
+					}
+					else {
+						pos = getRandomInt(0, pl.length - 1);
+					}
+					$scope.cheat_pos=$scope.cheat_pos+1;
+				}
                 else pos = getRandomInt(0, pl.length - 1);
             }
             while (checkDup(pos, pl));
@@ -418,7 +447,7 @@ function mldCtrl($scope, $http) {
                     $scope.rollingOutEffect();
 					
 					
-                }, 7000); //Stop 7s to see the result
+                }, 5000); //Stop 5s to see the result
 				
                 return;
             }

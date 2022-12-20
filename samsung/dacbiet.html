@@ -147,9 +147,11 @@
             <span>_____________________________</span><br/><br/>
 		</p>
 		<p class="print_title" >	
-            <strong>{{currentPrice.title}}  1 Robot hút bụi Samsung VR30T85513W/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Lò vi sóng Samsung MC35R8088LE/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy lọc không khí Samsung AX60R5080WD/SV</strong><br/>
+            <strong>{{currentPrice.title}}  1 Tủ lạnh thông minh Family Hub</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy sấy thông minh AI Heatpump</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy giặt thông minh AI Ecobubble</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Robot hút bụi thông minh Jetbot+</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy lọc thông minh 41m2</strong><br/>
         </p>
                     </div>
                     <div class="modal-body">
@@ -229,9 +231,11 @@
                     </div>
 					</div>
                     <div class="modal-footer">
+					<!--
 						<button type="button" class="btn btn-default"  
                                 ng-click="showAllResult()"><span class="glyphicon glyphicon-stats"></span>&nbsp;TỔNG KẾT
                         </button>
+						-->
                         <button type="button" class="btn btn-default" data-dismiss="modal"
                                 ng-click="printResult()"><span class="glyphicon glyphicon-print"></span>&nbsp;IN KẾT QUẢ
                         </button>
@@ -260,9 +264,11 @@
 </strong><br/>
 
             <span>_____________________________</span><br/><br/>
-            <strong>{{currentPrice.title}}  1 Robot hút bụi Samsung VR30T85513W/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Lò vi sóng Samsung MC35R8088LE/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy lọc không khí Samsung AX60R5080WD/SV</strong><br/>
+            <strong>{{currentPrice.title}}  1 Tủ lạnh Family Hub</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy sấy thông minh AI Heatpump</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy giặt thông minh AI Ecobubble</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Robot hút bụi thông minh Jetbot+</strong><br/>
+			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy lọc không khí thông minh 4</strong><br/>
         </p>
 
         <p>&nbsp;</p>
@@ -296,43 +302,7 @@
             </table>
         </div>
 		
-		<p class="print_title">
-		<br/><br/>
-            <strong>GIẢI NHÌ: 1 Máy hút bụi Samsung VS15A6031R1/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Lò vi sóng Samsung MG23T5018CK/SV</strong><br/>
-			<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Máy lọc không khí Samsung AX40R3030WM/SV</strong><br/>
-        </p>
 
-        <p>&nbsp;</p>
-
-        <div >		
-		
-		
-		
-            <div class="alert alert-info" ng-hide="lastPrice.results.length" style="text-align: center">Chưa có kết quả
-            </div>
-            <table class="table-bordered" style="width: 90%" ng-show="lastPrice.results.length">
-                <tr>
-                    <th style="text-align:center;width: 5%">STT</th>
-                    <th style="text-align:center;width: 15%">NGÀNH HÀNG</th>
-                    <th style="text-align:center;width: 20%">MODEL</th>
-                    <th style="text-align:center;width: 20%">SỐ IMEI/SERIAL</th>
-					<th style="text-align:center;width: 20%">SỐ ĐIỆN THOẠI</th>
-                    <th style="text-align:center;width: 20%">ĐỢT</th>
-                </tr>
-                <tr ng-repeat="person in lastPrice.results track by $index">
-                    <td style="text-align:center;">{{ $index+1 }}</td>
-					<td style="text-align:center;">{{person.DATE_BUY}}</td>
-                    <td>{{person.MODEL}}</td>
-                    <td>{{person.IMEI}}</td>
-                    <td>{{person.BILL_ID}}</td>					
-                    <td style="text-align:center;">{{person.DOT}}</td>
-                </tr>
-                <tr>
-                    <td colspan="6"><strong>TỔNG SỐ GIẢI: {{lastPrice.results.length}} </strong></td>
-                </tr>
-            </table>
-        </div>
 
         <div>
             <table style="width: 100%" ng-show="currentPrice.results.length">
