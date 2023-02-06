@@ -15,8 +15,8 @@ function mldCtrl($scope, $http) {
 
     //set draw day to get price information and add to winner information
 	$scope.programName = "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN";
-    $scope.drawDay = 1; // đợt
-    $scope.date = '23/12/2023';//Ngày
+    $scope.drawDay = 4; // đợt
+    $scope.date = '10/02/2023';//Ngày
 	today = new Date();
 	hour=("0" + today.getHours()).slice(-2);
 	minute=("0" + today.getMinutes()).slice(-2);
@@ -25,7 +25,7 @@ function mldCtrl($scope, $http) {
     //setup quay price
     $scope.prices = [
         {
-            title: "GIẢI NHẤT:",
+            title: "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN: TUẦN 5",
             id: 1,
             day: 1,
             total: 1,// tong so giai
@@ -37,29 +37,52 @@ function mldCtrl($scope, $http) {
         } //type = 1 main price
 		,
 		{
-            title: "GIẢI NHÌ:",
+            title: "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN: TUẦN 6",
             id: 2,
             day: 1,
-            total: 18,// tong so giai
-            draw: 2,// so lan quay
-            nod: 9, //so giai moi lan quay
+            total: 1,// tong so giai
+            draw: 1,// so lan quay
+            nod: 1, //so giai moi lan quay
             time: 0,//chem gio phat
             results: [],
             type: 1
         } //type = 1 main price
 		,
 		{
-            title: "05 GIẢI BA",
+            title: "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN: TUẦN 7",
             id: 3,
             day: 1,
-            total: 5,// tong so giai
-            draw: 5,// so lan quay
+            total: 1,// tong so giai
+            draw: 1,// so lan quay
             nod: 1, //so giai moi lan quay
             time: 0,
             results: [],
             type: 1
         } //type = 1 main price : Giai dac biet cua 20 giai
-		
+		,
+		{
+            title: "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN: TUẦN 8",
+            id: 4,
+            day: 1,
+            total: 1,// tong so giai
+            draw: 1,// so lan quay
+            nod: 1, //so giai moi lan quay
+            time: 0,
+            results: [],
+            type: 1
+        } 
+		,
+		{
+            title: "RƯỚC 3 MÈO VÀNG NHÂN 3 TẾT LỚN: TEST",
+            id: 5,
+            day: 1,
+            total: 1,// tong so giai
+            draw: 1,// so lan quay
+            nod: 1, //so giai moi lan quay
+            time: 0,
+            results: [],
+            type: 1
+        } 
 
 		
     ];
@@ -133,16 +156,16 @@ function mldCtrl($scope, $http) {
     $scope.loadPeople = function () {
         switch($scope.currentIndex){
             case 0:
-                dataUrl = 'data/customers1.php';
+                dataUrl = 'data/week5.php';
                 break;
             case 1:
-                dataUrl = 'data/customers1.php';
+                dataUrl = 'data/week6.php';
                 break;
             case 2:
-                dataUrl = 'data/customers1.php';
+                dataUrl = 'data/week7.php';
                 break;
 			case 3:
-                dataUrl = 'data/customers1.php';
+                dataUrl = 'data/week8.php';
                 break;
             default:
                 dataUrl = 'data/customers1.php';
@@ -345,7 +368,7 @@ function mldCtrl($scope, $http) {
 					//pos will be assign here
 					if ($scope.cheat_pos==0)
 					{
-						pos=66511;// Giai Tu Anh, se thay id sau
+						pos=14608;// Giai ky gui cua Tuan, id tru di 1
 					}
 					else
 					{
